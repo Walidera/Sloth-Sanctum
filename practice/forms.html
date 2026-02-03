@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/submit" method="post">
+      <br />
+      <label for="name">Name:</label> <br />
+      <input type="text" id="name" name="name" required />
+      <br />
+
+      <label for="email">Email:</label><br />
+      <input type="email" id="email" name="email" required />
+      <br />
+
+      <label for="password">Password:</label><br />
+      <input type="password" id="password" name="password" required />
+      <br />
+
+      <input type="date" />
+      <input type="color" />
+      <select>
+        <option>option 1</option>
+        <option>option 2</option>
+        <option>option 3</option>
+        <option>option 4</option>
+      </select>
+      <input type="checkbox" id="cb1" /><label for="cb1">Check 1</label>
+      <input type="checkbox" id="cd2" /><label for="cb2">Check 2</label>
+      <br />
+
+      <input type="radio" id="rb1" name="group 1" /><label for="rb1"
+        >Radio 1</label
+      ><br />
+      <input type="radio" id="rb2" name="group 1" /><label for="rb2"
+        >Radio 2</label
+      ><br />
+      <input type="radio" id="rb3" name="group 1" /><label for="rb3"
+        >Radio 3</label
+      ><br />
+      <br />
+      <textarea
+        rows="4"
+        cols="50"
+        placeholder="Your message here..."
+      ></textarea>
+
+      <br /><br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>

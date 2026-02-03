@@ -1,0 +1,11 @@
+/* comments in CSS */
+
+
+body {
+    background-color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    color: rgb(155, 246, 113);
+}
